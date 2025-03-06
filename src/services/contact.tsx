@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/api/post-contact"; // Change this to your backend URL if deployed
+const API_URL = "https://portfolio-production-0f0f.up.railway.app/api/post-contact"; // Change this to your backend URL if deployed
 
 export const sendContactForm = async (formData: any) => {
   try {
