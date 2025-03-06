@@ -1,0 +1,8 @@
+{
+    "build": {
+        "builder": "nixpack"
+    },
+    "deploy": {
+        "startCommand": "node app.js"
+    }
+}
